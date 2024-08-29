@@ -1,0 +1,38 @@
+/* src/components/Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #6fd6a2;
+    padding: 0 20px;
+    height: 64px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    height: 40px;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-menu {
+    background: transparent;
+    border: none;
+  }
+  
+  .user-avatar {
+    margin-right: 8px;
+  }
+  
+  .username {
+    color: #fff;
+    margin-left: 8px; /* Add space between the avatar and the text */
+  }
+  
