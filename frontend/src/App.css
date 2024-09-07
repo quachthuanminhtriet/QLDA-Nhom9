@@ -1,0 +1,52 @@
+/* Global font settings */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Custom styles for sidebar */
+.ant-layout-sider {
+  background: #001529;
+}
+
+.ant-menu-dark {
+  background: #001529;
+}
+
+.ant-menu-dark .ant-menu-item {
+  color: #fff;
+}
+
+.ant-menu-dark .ant-menu-item:hover {
+  background: #1890ff;
+}
+
+/* Custom styles for logo */
+.sidebar-logo {
+  padding: 16px;
+  text-align: center;
+}
+
+.sidebar-logo img {
+  width: 80%;
+  max-width: 120px;
+}
+
+/* Custom styles for header */
+.ant-layout-header {
+  background: #03045e;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+}
+
+.ant-layout-header .logo {
+  height: 32px;
+  margin-right: 16px;
+}
+
+.ant-layout-header .ant-menu {
+  line-height: 64px;
+}
